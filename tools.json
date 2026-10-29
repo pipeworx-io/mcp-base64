@@ -1,0 +1,42 @@
+[
+  {
+    "name": "base64_encode",
+    "description": "Encode UTF-8 text to Base64 / Base64URL / Base32 / Hex (keyless, offline). Set `variant` (default base64).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Text to encode."
+        },
+        "variant": {
+          "type": "string",
+          "description": "Encoding: base64 (default), base64url, base32, or hex."
+        }
+      },
+      "required": [
+        "text"
+      ]
+    }
+  },
+  {
+    "name": "base64_decode",
+    "description": "Decode Base64 / Base64URL / Base32 / Hex back to UTF-8 text (keyless, offline). Set `variant` (default base64).",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "string",
+          "description": "Encoded data to decode."
+        },
+        "variant": {
+          "type": "string",
+          "description": "Encoding: base64 (default), base64url, base32, or hex."
+        }
+      },
+      "required": [
+        "data"
+      ]
+    }
+  }
+]
