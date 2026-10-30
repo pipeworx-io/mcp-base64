@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-base64",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Encoding MCP — Base64 / Base64URL / Base32 / Hex.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "base64",
     "gatewaySlug": "base64",
-    "sourceHash": "v1-7e080718715aebc8f054d4a9c6766fef35c89d7faaac59a54949c7747c2be75d",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-3a5c62b2e8fa1e5f503ec7b3ad6c493d8533141acb24f2e701a9ed657ca08667",
+    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
   }
 }
